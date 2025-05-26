@@ -6,7 +6,7 @@ export default function FancyCard() {
     <View style={styles.main}>
       <Text style={styles.headingText}>Trending Places</Text>
       <ScrollView style={[styles.card, styles.cardElevated]}>
-        <Image 
+        <Image
         style={styles.cardImage}
         source = {{
             uri:'https://i.pinimg.com/736x/ec/32/30/ec32303d762b543ab7a15511d1d924df.jpg'
